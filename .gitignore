@@ -5,3 +5,9 @@
 .sass-cache
 __pycache__
 _site
+intro_slides/*.aux
+intro_slides/*.log
+intro_slides/*.nav
+intro_slides/*.out
+intro_slides/*.snm
+intro_slides/*.toc

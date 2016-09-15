@@ -1,0 +1,150 @@
+\documentclass{beamer}
+
+\usetheme{boxes}
+
+
+\usecolortheme[RGB={34,170,34}]{structure}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphics}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage[absolute,overlay]{textpos}
+
+\usepackage{framed,color}
+\definecolor{shadecolor}{rgb}{255,127,0}
+\setbeamertemplate{itemize item}[circle]
+
+\definecolor{verde}{RGB}{34,170,34}
+
+
+\setbeamercolor{uppercolgreen}{fg=white,bg=verde!90}
+\setbeamercolor{lowercolgreen}{fg=black,bg=verde!20}
+
+
+\title[]{EOAS Software Carpentry Workshop}
+\subtitle[]{}
+\date[]{20-21 September 2016}
+
+
+\begin{document}
+\bibliographystyle{plainnat}
+\bibliography{bib/biblio}
+
+
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{The Big Objective}
+  Become more {\em productive} by using core computing skills like
+  \begin{itemize}
+    \item task automation
+    \item version control
+  \end{itemize}
+  which also make your research more {\em reproducible}.
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Welcome}
+  \begin{itemize}
+    \item Materials/Concept from \href{http://software-carpentry.org/}{software-carpentry.org}
+    \item Snacks/Coffee from the Department
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{People}
+  \begin{itemize}
+    \item Sponsor: Susan Allen
+    \item Instructors: Doug Latornell, Karina Ramos Musalem, Nancy Soontiens
+    \item Helpers: Idalia Machuca, Cindy Yu, Anna, Keelin
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Content/Schedule}
+  \begin{itemize}
+    \item Tuesday Morning: Shell
+    \item Tuesday Afternoon: Version Control with Mercurial
+    \item Wednesday: Programming in Python
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Pedagogy}
+  \begin{itemize}
+    \item Learn by Doing
+    \item Instant Feedback (thanks Computers!)
+    \item Learn by Discussing
+    \item Learn by Questioning
+    \item Green Light, Red Light
+    \item Feedback: Etherpad and/or Write on red/green post-its
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Resources}
+  \begin{itemize}
+    \item The Workshop web site with Lessons (the textbook) -- \href{https://douglatornell.github.io/2016-09-20-ubc/}{https://douglatornell.github.io/2016-09-20-ubc/}
+    \item Slide decks for each lesson -- PDFs linked as "Workshop Slides" on each section's index page
+    \item Command Reminder Pages -- Linked from the Syllabus and each section's index page
+    \item Resources links -- on each section's index page
+    \item Etherpad at \href{http://pad.software-carpentry.org/2016-09-20-ubc}{http://pad.software-carpentry.org/2016-09-20-ubc} - a collaborative workspace for notes, questions, links, etc.
+    \item Transcripts of the shell commands that the instructors type -- \href{http://eoas.ubc.ca/~dlatorne/swc/2016-09-20-ubc/history.txt}{http://eoas.ubc.ca/$\sim$dlatorne/swc/2016-09-20-ubc/history.txt}
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{The Big Objective}
+  Become more {\em productive} by using core computing skills like
+  \begin{itemize}
+    \item task automation
+    \item version control
+  \end{itemize}
+  which also make your research more {\em reproducible}.
+\end{frame}
+
+
+\begin{frame}
+  \begin{block}{Automation for Files and Directories}
+  \end{block}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Getting to Shell}
+  Windows:
+  \begin{itemize}
+    \item From the Windows Start button/menu:
+    \begin{itemize}
+      \item Open the Git group, then click on Git Bash, or
+      \item Type {\tt git bash} in the "Search programs and files box"
+    \end{itemize}
+  \end{itemize}
+
+  OS/X:
+  \begin{itemize}
+    \item Use Finder to navigate to the Application folder, then the Utilities folder
+    \item Launch Terminal
+  \end{itemize}
+
+  Ubuntu:
+  \begin{itemize}
+    \item Click the Ubuntu search icon at the top of the dock
+    \item Type {\tt terminal}
+    \item Launch Terminal
+  \end{itemize}
+
+\end{frame}
+
+
+\end{document}
