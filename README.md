@@ -1,5 +1,7 @@
 # workshop-template
 
+This repository is an archival record of the workshop. It is read-only on GitHub as of 20-Jun-2023.
+
 This repository is [Software Carpentry][swc-site] and [Data Carpentry][dc-site]'s
 template for creating websites for workshops.
 
